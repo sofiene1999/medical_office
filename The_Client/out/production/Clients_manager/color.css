@@ -1,0 +1,26 @@
+.root{
+
+    -fx-background-color: skyblue, derive(skyblue, 25%);
+    -fx-background-insets: -20, -10;
+    -fx-background-image: url("images.jpg");
+    -fx-background-position: left top, center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+ }
+
+.label{
+
+    -fx-text-fill: #181818;
+
+}
+
+.HBox{
+
+    -fx-background-color: #585858;
+}
+
+.Button{
+
+    -fx-border-width: 5px;
+
+}
